@@ -219,7 +219,7 @@
     "postcss-html": "^0.36.0",
     "postcss-jsx": "^0.36.4",
     "postcss-less": "^3.1.4",
-    "postcss-markdown": "^0.36.0",
+    "postcss-markdown": "^1.2.0",
     "postcss-media-query-parser": "^0.2.3",
     "postcss-reporter": "^6.0.1",
     "postcss-resolve-nested-selector": "^0.1.1",
@@ -238,8 +238,8 @@
     "readable-stream": "^3.6.2",
     "redent": "^4.0.0",
     "regex-not": "^1.0.2",
-    "remark": "^10.0.1",
-    "remark-parse": "^6.0.3",
+    "remark": "^14.0.3",
+    "remark-parse": "^10.0.2",
     "remark-stringify": "^6.0.4",
     "repeat-element": "^1.1.4",
     "repeat-string": "^1.6.1",
@@ -254,6 +254,7 @@
     "run-parallel": "^1.2.0",
     "safe-buffer": "^5.2.1",
     "safe-regex": "^1.1.0",
+    "sass-rem": "^3.0.0",
     "semver": "^7.5.4",
     "set-value": "^2.0.1",
     "signal-exit": "^4.1.0",
@@ -282,8 +283,6 @@
     "strip-bom": "^3.0.0",
     "strip-indent": "^4.0.0",
     "style-search": "^0.1.0",
-    "stylelint": "^15.10.2",
-    "stylelint-config-rational-order": "^0.0.4",
     "stylelint-config-recommended": "^12.0.0",
     "stylelint-config-recommended-scss": "^12.0.0",
     "stylelint-config-standard": "^34.0.0",
@@ -300,7 +299,7 @@
     "to-object-path": "^0.3.0",
     "to-regex": "^3.0.2",
     "to-regex-range": "^5.0.1",
-    "trim": "^0.0.1",
+    "trim": "^1.0.1",
     "trim-newlines": "^4.1.1",
     "trim-trailing-lines": "^1.1.4",
     "trough": "^1.0.5",
@@ -336,7 +335,9 @@
     "yocto-queue": "^0.1.0"
   },
   "devDependencies": {
-    "htmlhint": "^1.1.4"
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.10.2",
+    "stylelint-config-rational-order": "^0.0.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
